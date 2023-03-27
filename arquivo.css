@@ -1,0 +1,113 @@
+* {
+    <margem> :  0 ;
+    <preenchimento> :  0 ;
+    tamanho-da-caixa : caixa de borda;
+    font-family : Helvetica , sem serifa;
+    cor :  # 323232 ;
+    fronteira : nenhum;
+}
+
+entrada ,  <type> {
+    <exibicao> : bloco;
+    <largura> :  100 % ;
+}
+
+entrada: foco ,  rótulo : foco {
+    contorno : nenhum;
+}
+
+um {
+    cor : roxo
+}
+
+# <box>{
+    padding-top :  5 vh ;
+    tamanho do plano de fundo : capa;
+    posição de fundo-y :  -150 px ;
+}
+
+corpo {
+    imagem de fundo:  url; ( '../img/new_background_city.png' );
+    altura :  100 vh ;
+}
+
+# contêiner principal {
+    largura :  600 px ;
+    image-rendering : auto;
+    image-rendering : auto;
+    cor de fundo :  # FFF ;
+    raio da borda :  10 px ;
+    preenchimento :  25 px ;
+}
+
+# contêiner principal  h1 {
+    alinhamento de texto : centro;
+    margem inferior :  25 px ;
+    tamanho da fonte :  1,6 rem ;
+}
+
+formulário {
+    exibição : flexível;
+    flex-wrap : envoltório;
+    justificar-conteúdo : espaço-entre;
+}
+
+. caixa cheia {
+    flexível :  1  1  100 % ;
+    posição : relativa;
+}
+
+. meia caixa {
+    flexível :  1  1  45 % ;
+    posição : relativa;
+}
+
+. espaçamento {
+    margem direita :  2,5 % ;
+}
+
+etiqueta {
+    peso da fonte : negrito;
+    tamanho da fonte :  .8 rem ;
+}
+
+entrada {
+    borda inferior :  sólido de 2 px # 323232 ;
+    preenchimento :  10 px ;
+    tamanho da fonte :  .9 rem ;
+    margem inferior :  40 px ;
+}
+
+entrada : foco {
+    cor da borda :  # 77189C ;
+}
+
+entrada [ tipo = "enviar" ] {
+    margem inferior :  1 vh ;
+    cor de fundo :  # 77189C ;
+    cor :  #FFF ; _
+    fronteira : nenhum;
+    raio da borda :  10 px ;
+    altura :  40px ; _
+    cursor : ponteiro;
+}
+
+# acordo {
+    margem direita :  5 px ;
+    padding-top :  3 vh ;
+}
+
+# acordo ,  # rótulo de acordo {
+    largura : automático;
+}
+
+. validação de erro {
+    cor : vermelho;
+    posição : absoluto;
+    superior :  57 px ;
+    tamanho da fonte :  .8 rem ;
+}
+
+. modelo {
+    exibição : nenhum;
+}
